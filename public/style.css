@@ -28,6 +28,10 @@ h2{
 .icons{
     width: 30px;
     margin:4px;
+    transition: transform 0.3s;
+}
+.icons:hover{
+    transform: scale(1.06);
 }
 .black-icons{
     width: 18px;
